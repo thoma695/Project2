@@ -1,0 +1,20 @@
+area = input("Input Resevroir area used:")
+
+product_line_pump = input("Choose favored product line for pump")
+
+product_line_pipe = input("Choose favored product line for pipes")
+
+product_line_turbines = input("Choose favored product line for turbines")
+
+meters_pump = input("Input the number of meters the pump need to be able to push the water")
+
+meters_turbine = input("Input the number of meters the turbine needs to work for")
+
+diameter_pipe = input("Choose desired pipe diameter")
+
+def costZone1(area,product_line_pipe , product_line_pump, product_line_turbines, meters_pump, meters_turbine, diameter_pipe)
+  siteCost = (.25 * area)+40000 + 8000
+  costPipes = pipeShack(product_line_pipe, diameter_(pipe)
+  costPump = pumpFoundry(product_line_pump, meters_pump)
+  costTurbine = turbinesW(product_line_turbines, meters_turbine)
+  return siteCost + costPipes + costPump + costTurbine
